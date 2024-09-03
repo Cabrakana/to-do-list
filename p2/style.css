@@ -1,0 +1,102 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+.container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    margin-top: 50px;
+    overflow: hidden;
+}
+.header {
+    background-color: #0056b3;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    position: relative;
+    border-bottom: none;
+}
+.header h2 {
+    margin: 0;
+    font-size: 24px;
+}
+.header .back-button {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+.form-group {
+    padding: 15px;
+    background-color: #0056b3; /* Fondo azul */
+    color: #fff;
+    margin-bottom: 0;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+    font-weight: bold;
+}
+.form-group input, 
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.form-group input[type="text"],
+.form-group textarea {
+    background-color: #fff;
+    color: #333;
+}
+.form-group .date-group {
+    display: flex;
+    justify-content: space-between;
+}
+.form-group .date-group div {
+    width: 48%;
+}
+.bottom-section {
+    padding: 15px;
+    background-color: #fff;
+    color: #333;
+}
+.tags, .status {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.tags button, .status button {
+    background-color: #f0f0f0;
+    color: #333;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.tags .active, .status .active {
+    background-color: #007bff;
+    color: #fff;
+}
+.bottom-section button {
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
